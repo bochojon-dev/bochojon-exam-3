@@ -584,6 +584,7 @@
       .mentor2 .mentor2-contents .mentor2-texts h3 {
         font-size: 24px;
       }
+
       .mentor .mentor-contents {
         flex-direction: column;
         position: relative;
@@ -605,6 +606,10 @@
       .hero .hero-contents {
         flex-direction: column-reverse;
       }
+      .mentor2 .mentor2-contents .img-texts {
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
       .icons .icon-cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
@@ -616,6 +621,14 @@
         max-width: 700px !important;
         width: 100% !important  ;
         height: 350px !important;
+      }
+      .mentor .mentor-contents .mentor-texts button {
+        margin: 0 auto;
+      }
+      .blog .blog-contents h1 {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
       }
       .hero .hero-contents .hero-img {
         max-width: 700px !important;
@@ -632,6 +645,15 @@
       .trending .trending-contents h3 {
         font-size: 32px !important;
       }
+      .blog .blog-contents h1 {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+      }
+      .mentor2 .mentor2-contents .img-texts {
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
       .category .category-contents .heading h2 {
         text-align: center;
         font-size: 32px !important;
@@ -639,6 +661,11 @@
       .mentor .mentor-contents .mentor-texts h2 {
         text-align: center;
         font-size: 32px !important;
+      }
+      .mentor .mentor-contents .mentor-texts button {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
       }
       .company .company-contents h2 {
         text-align: center;

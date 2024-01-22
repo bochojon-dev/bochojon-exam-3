@@ -111,9 +111,9 @@
       @media (max-width: 1050px) {
         #navbar-responsive {
           position: fixed !important;
-          top: 104px !important;
+          top: 104px;
           bottom: 0;
-          left: -100% !important;
+          left: -100%;
           height: 500px;
           width: 100%;
           flex-direction: column !important ;
